@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github commands</title>
+</head>
+<body>
+    <h1>Github Commands</h1>
+    <ol>
+        <li><h4>Setup and Configuration</h4>
+            Set your username and email for Git commits<br>
+git config --global user.name "Your Name"<br>
+git config --global user.email "your.email@example.com"
+        </li>
+        <li><h4>Creating a Repository</h4>
+            Initialize a new Git repository<br>
+git init<br>
+
+ Clone an existing repository<br>
+git clone https://github.com/user/repository.git
+        </li>
+        <li><h4>Add Remote and Push Initial Commit</h4>
+            git remote add origin https://github.com/username/new-repo.git<br>
+            echo "# New Repository" > README.md<br>
+            git add README.md<br>
+            git commit -m "Initial commit"<br>
+            git push -u origin main<br>
+        </li>
+    </ol>
+</body>
+</html>

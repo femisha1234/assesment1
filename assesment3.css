@@ -1,0 +1,66 @@
+body{
+    background-image: url(./assets/white-blurred-background_1034-249.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+ .div1{
+    float: left;
+    background-image: url(./assets/1.photo-1594495894542-a46cc73e081a.jpg);
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+ }
+
+.form{
+    background-color: white;
+    height:100%;
+    width: 50%;
+    margin: 150px;
+    float: left;
+    background-size: cover;
+}
+
+h1{
+    text-align: right;
+    text-decoration: underline blueviolet;
+    margin-right: 100px;
+
+}
+
+.div2{
+    display: block;
+    float: right;
+}
+
+
+textarea{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-style: none;
+    background-color: rgb(214, 212, 212);
+}
+
+input{
+    border-style: none;
+    background-color: rgb(214, 212, 212);
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 35px;
+    padding-top: 2px;
+    font-size: larger;
+    background-color: blueviolet;
+    color: black;
+    
+}

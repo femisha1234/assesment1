@@ -1,0 +1,15 @@
+h3{
+    color: rgb(165, 42, 42);
+}
+h1{
+    color: rgb(189, 23, 23);
+}
+span,p,section{
+    color: rgb(77, 142, 11);
+}
+.heading{
+    color: black;
+}
+#heading1{
+    color: blueviolet;
+}

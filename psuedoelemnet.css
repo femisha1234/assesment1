@@ -1,0 +1,115 @@
+p::first-line {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+p::first-letter{
+    color: blue;
+}
+
+h1::before{
+    content: "Hey,";
+    color: blue;
+    font-size: 50px;
+}
+
+/* h1::after{
+    content: " Femisha ";
+} */
+
+h1:hover::after{
+    content: " Femisha";
+    color: blue;
+}
+p::selection{
+    color:brown;
+    background-color: cadetblue;
+}
+
+/* .gradient{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    background-image:linear-gradient( to right,rgb(242, 0, 255),rgb(0, 255, 242),black);
+
+} */
+
+ .gradient2{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    background-image: radial-gradient(red,blue);
+}
+
+.gradient{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    background-image:linear-gradient( blue 0px 100px,yellow 100px 150px,red 150px 200px);
+}
+
+/* .animation{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+} */
+
+/* .div2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color:blue;
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+} */
+
+@keyframes move{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        left: 300px;
+        top: 0px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        border-radius: 50px;
+        background-color: brown;
+    }
+}
+/* .div3{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    transform: skew(10deg,20deg);
+   
+} */
+img{
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+    /* transform: translate(20px,20px); */
+   
+}
+img:hover{
+    transform: rotate(90deg);
+}

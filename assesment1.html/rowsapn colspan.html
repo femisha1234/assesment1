@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rowspan colspan</title>
+    <style>
+        th,
+        td {
+            border-style: groove;
+            border-spacing: 5px;
+        }
+
+        th,
+        td {
+            background-color: rgb(199, 176, 221);
+            padding: 20px;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        th:nth-child(odd),
+        td:nth-child(odd) {
+            background-color: rgb(165, 42, 132);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rowspan & Colspan in Tables</h1>
+    <h4>
+        rowspan and colspan attributes are used in HTML tables to control the spanning of rows and columns,
+        respectively,
+        merging multiple cells into one larger cell.</h4>
+    <h2>Example</h2>
+    <table>
+        <tr>
+            <th rowspan="2">NAME</th>
+            <th colspan="2">MARKS</th>
+        </tr>
+        <tr>
+            <th>SEM 1</th>
+            <th>SEM2</th>
+        </tr>
+        <tr>
+            <td>Femisha</td>
+            <td>45</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Faiha</td>
+            <td>50</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Amalda</td>
+            <td>45</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <br> <br>
+
+    <table>
+        <tr>
+            <th colspan="2">NAME</th>
+            <td>Femisha</td>
+        </tr>
+        <tr>
+            <th rowspan="2">MARKS</th>
+            <th>Sem 1</th>
+            <td>50</td>
+
+
+        </tr>
+        <tr>
+            <th>Sem 2</th>
+            <td>45</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

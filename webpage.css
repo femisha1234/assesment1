@@ -1,0 +1,39 @@
+.sec1{
+    color: antiquewhite;
+}
+.h2 {
+    color: black;
+}
+button{
+    background-color: white;
+    border: 1 px  solid white;
+    color: black;
+   
+}
+
+
+.contact {
+    
+    background-color: rgb(186, 140, 204);
+    border: 1 px  solid white;
+    color: black;
+}
+.div1 {
+    background-image: url(./assets/img2.png);
+    background-size: contain;
+    height: 30rem;
+    width: 98rem;
+    padding: 30px;
+}
+.sec2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.card {
+    width: 200px;
+    background-color: white;
+    padding: 70px;
+    border-radius: 10px;
+
+}
